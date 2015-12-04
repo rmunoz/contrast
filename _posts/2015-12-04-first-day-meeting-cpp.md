@@ -29,6 +29,7 @@ Drawbacks: compilation time, code complexity, compiler support, skills.
 [Brigand][1] Lightweight C++11 meta-programming library library.
 
 Top 5 game changers:
+
  1. variadic templates
  1. `decltype`
  1. alias templates
@@ -40,6 +41,7 @@ Useful: Command pattern (revisited)
 struct <=> JSON (serialization) at compile time!
 
 Boost.Fusion Compile time introspection:
+
 {% highlight c++ %}
 
 BOOST_FUSION_ADAPT_STRUCT(my_struct, (int, alpha)(std::string, omega))
